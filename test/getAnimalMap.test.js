@@ -13,7 +13,7 @@ describe('7 - Crie um mapeamento geográfico das espécies e seus animais', () =
 
     expect(actual).toEqual(expected);
   });
-
+  
   it('se somente a opção `sex: female` for especificada, retorna animais categorizados por localização', () => {
     const expected = {
       NE: ['lions', 'giraffes'],
